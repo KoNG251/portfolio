@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai&family=Kanit:wght@200;300;400&family=Prompt:wght@300;400&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 300;
+}
+
+/* nav section */
+.body{
+    background-color: #FDFCF7;
+}
+
+.btn-active{
+    width: 3rem;
+    height: 2rem;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.navbar-nav .nav-item .nav-link{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #FDFCF7;
+    transition: 0.5s;;
+    cursor: pointer;
+    
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    color: #FF7052;
+    transition: 0.5s;
+}
+
+/* home */
+.home{
+    width: 100%;
+    height: 49rem;
+    background-color: #1B1E23;
+}
+
+.sec-text{
+    color: #FDFCF7;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 300;
+}
+.profile-text{
+    color: #FDFCF7;
+}
+
+.box-text{
+    margin-top: 20rem;
+}
+
+.profile{
+    width: 45rem;
+    left: 0;
+    top: 2rem;
+}
+
+/* about me */
+.about{
+    width: 100%;
+    background-color: #1B1E23;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 400;
+    overflow: hidden;
+}
+
+.skills{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 1rem;
+    transition: 0.3s;
+    color: #FDFCF7;
+    cursor: pointer;
+}
+.skills:hover{
+    background-color: #FDFCF7;
+    transition: 0.3s;
+    color: #1B1E23;
+}
+.skill-pic{
+    width: 100%;
+    height: 50%;
+    padding-top: 2rem;
+}
+.skill-pic img{
+    width: 10rem;
+    height: 5rem;
+    object-fit: contain;
+}
+.skill-text{
+    width: 100%;
+    height: 50%;
+    padding-top: 2rem;
+}
+
+.text-box{
+    width: 100%;
+    height: 5rem;
+    bottom: 0;
+    right: 2px;
+    text-align: center;
+}
+
+.project{
+    width: 100%;
+    background-color: #1B1E23;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 400;
+    overflow: hidden;
+}
+
+.btn-link{
+    width: 200px;
+    height: 3rem;
+    background: #FDFCF7;
+    border-radius: 1rem;
+    color: #1B1E23;
+    text-decoration: none;
+}
+
+.contact{
+    width: 100%;
+    background-color: #1B1E23;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 400;
+    overflow: hidden;
+}
+
+@media screen and (max-width:430px) {
+    .profile{
+        left: 2.5rem;
+        width: 20rem;
+    }
+    .box-text{
+        margin-top: 25rem;
+    }
+    .sec-text{
+        font-size: 18px;
+    }
+}
